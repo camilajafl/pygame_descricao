@@ -397,7 +397,7 @@ while replay:
                 if event.key == pygame.K_SPACE: 
                     game.rotate() #ativa a rotação da peça de acordo com a função
                 if event.key == pygame.K_ESCAPE:
-                    game.__init__(20, 10)  #???????????????????????
+                    game.__init__(20, 10) 
 
     
         if event.type == pygame.KEYUP:
